@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.5;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+header h2{
+   font-size: 1rem; 
+   font-weight: normal;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+
+main > section:first-of-type{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(234, 238, 242);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+main > section:first-of-type img {
+    width: 150px;
+    height: 200pX;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;}
+
+main > section:first-of-type p{
+background-color: white;
+padding: 8px 20px;
+border-radius: 50px;
+direction: inline-block;
+transform: rotate(3deg);
+}
+
+main > section:first-of-type h3{
+    font-size: 2rem;
+   text-align:center; 
+   max-width: 600px;
+   margin-bottom: 25px;
+   line-height: 1.3;
+}
+
+main > section:first-of-type button {
+  background-color: black; 
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer; 
+  margin-bottom: 15px;
+  border-radius: 45%;
+}
+
+.here-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+main > section:first-of-type nav{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius:  50px;
+    box-shadow: 0 2px 4px rgb(151, 149, 149);
+}
+
+main > section:first-of-type nav ul{
+list-style: none;
+display: flex;
+gap: 8px;
+align-items: center;
+}
+
+main > section:first-of-type nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+main > section:last-of-type {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+align-items: center;
+padding: 8px 20px;
+border-radius: 50px;
+display: inline;
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+footer nav a{
+ color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    cursor: pointer;   
+}
+
+main > section:last-of-type img{
+  width: 150px;
+    height: 200pX;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+align-self: center;}
+
+main > section:last-of-type about me{
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+}
+
