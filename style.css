@@ -147,7 +147,8 @@ main > section:last-of-type img{
     border-radius: 50%;
     padding: 20px;
     margin: auto;
-align-self: center;}
+align-self: left;
+}
 
 main > section:last-of-type about me{
     font-size: 2rem;
@@ -155,3 +156,12 @@ main > section:last-of-type about me{
     text-align: center;
 }
 
+h4{
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+    align-self: center;
+    display: flex;
+
+}
