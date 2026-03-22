@@ -74,11 +74,12 @@ main > section:first-of-type button {
   background-color: black; 
   color: white;
   border: none;
+  margin: 70px;
   padding: 12px 28px;
   font-size: 1rem;
   cursor: pointer; 
-  margin-bottom: 15px;
-  border-radius: 45%;
+  margin-bottom: 60px;
+  border-radius: 50%;
 }
 
 .here-content {
@@ -147,7 +148,7 @@ main > section:last-of-type img{
     border-radius: 50%;
     padding: 20px;
     margin: auto;
-align-self: left;
+align-self: center;
 }
 
 main > section:last-of-type about me{
